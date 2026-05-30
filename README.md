@@ -1,6 +1,6 @@
 # Park Passport
 
-A Next.js app for tracking U.S. National Park visits. Sign up, check off parks you've been to, save your progress, and build a ranked wishlist for parks still on your bucket list.
+A Next.js app for tracking U.S. National Park visits. Sign in with Google, check off parks you've been to, save your progress, and build a ranked wishlist for parks still on your bucket list.
 
 Built with **Next.js**, **React**, **vanilla CSS**, **Firebase** (Auth + Firestore), and deployed on **Vercel**.
 
@@ -49,7 +49,7 @@ Built with **Next.js**, **React**, **vanilla CSS**, **Firebase** (Auth + Firesto
    npx firebase-tools@latest apps:create web park-passport
    ```
 
-2. Enable **Email/Password** auth in the [Firebase Console](https://console.firebase.google.com/project/_/authentication/providers).
+2. Enable **Google** sign-in in the [Firebase Console](https://console.firebase.google.com/project/_/authentication/providers) (or deploy `firebase.json` auth config with `npm run firebase:deploy-rules`).
 
 3. Create a **Firestore** database (production mode is fine — included rules lock data per user).
 

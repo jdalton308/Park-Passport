@@ -13,14 +13,7 @@ export default function Hero() {
         </p>
         <div className="hero__actions">
           <a href="#auth-section" className="btn btn--secondary btn--lg">
-            Create free account
-          </a>
-          <a
-            href="#auth-section"
-            className="btn btn--ghost btn--lg"
-            style={{ color: "white", borderColor: "rgba(255,255,255,0.4)" }}
-          >
-            Sign in
+            Continue with Google
           </a>
         </div>
         <div className="hero__stats">

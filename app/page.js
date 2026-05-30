@@ -13,7 +13,7 @@ export default function HomePage() {
             <div className="auth-section__intro">
               <h2>Start your journey</h2>
               <p>
-                Create an account to track visited parks, save your list across devices, and
+                Sign in with Google to track visited parks, save your list across devices, and
                 rank your bucket-list destinations.
               </p>
               <ul className="auth-section__features">

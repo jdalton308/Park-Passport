@@ -4,7 +4,9 @@
   },
   "auth": {
     "providers": {
-      "emailPassword": true
+      "googleSignIn": {
+        "oAuthBrandDisplayName": "National Parks Tracker"
+      }
     }
   }
 }

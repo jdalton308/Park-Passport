@@ -48,6 +48,8 @@ export default function DashboardView() {
           setHasUnsavedChanges(false);
         }
       } catch (error) {
+        console.error('Error loading user data:', error);
+
         if (!cancelled) {
           showToast(formatAuthError(error), "error");
         }
