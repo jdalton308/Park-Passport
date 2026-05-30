@@ -1,0 +1,170 @@
+:root {
+  /* Primitive — green scale */
+  --green-50: #ecfdf5;
+  --green-100: #d1fae5;
+  --green-200: #a7f3d0;
+  --green-300: #6ee7b7;
+  --green-400: #34d399;
+  --green-500: #10b981;
+  --green-600: #059669;
+  --green-700: #047857;
+  --green-800: #065f46;
+  --green-900: #064e3b;
+
+  /* Primitive — orange scale */
+  --orange-50: #fff7ed;
+  --orange-100: #ffedd5;
+  --orange-200: #fed7aa;
+  --orange-300: #fdba74;
+  --orange-400: #fb923c;
+  --orange-500: #f97316;
+  --orange-600: #ea580c;
+  --orange-700: #c2410c;
+  --orange-800: #9a3412;
+  --orange-900: #7c2d12;
+
+  /* Primitive — neutrals */
+  --neutral-0: #ffffff;
+  --neutral-50: #f8fafc;
+  --neutral-100: #f1f5f9;
+  --neutral-200: #e2e8f0;
+  --neutral-300: #cbd5e1;
+  --neutral-400: #94a3b8;
+  --neutral-500: #64748b;
+  --neutral-600: #475569;
+  --neutral-700: #334155;
+  --neutral-800: #1e293b;
+  --neutral-900: #0f172a;
+  --neutral-950: #020617;
+
+  /* Semantic — brand */
+  --color-primary: var(--green-600);
+  --color-primary-hover: var(--green-700);
+  --color-primary-subtle: var(--green-100);
+  --color-primary-muted: var(--green-200);
+  --color-secondary: var(--orange-600);
+  --color-secondary-hover: var(--orange-700);
+  --color-secondary-subtle: var(--orange-100);
+
+  /* Semantic — surfaces */
+  --color-bg: var(--neutral-50);
+  --color-bg-gradient: linear-gradient(
+    135deg,
+    var(--green-800) 0%,
+    var(--green-600) 35%,
+    var(--orange-700) 100%
+  );
+  --color-bg-gradient-soft: linear-gradient(
+    160deg,
+    var(--green-50) 0%,
+    var(--neutral-0) 40%,
+    var(--orange-50) 100%
+  );
+  --color-bg-hero-overlay: linear-gradient(
+    180deg,
+    rgba(6, 78, 59, 0.85) 0%,
+    rgba(234, 88, 12, 0.65) 100%
+  );
+  --color-surface: var(--neutral-0);
+  --color-surface-raised: var(--neutral-0);
+  --color-surface-muted: var(--neutral-100);
+  --color-surface-accent: linear-gradient(
+    135deg,
+    var(--green-100) 0%,
+    var(--orange-100) 100%
+  );
+
+  /* Semantic — text */
+  --color-text: var(--neutral-900);
+  --color-text-muted: var(--neutral-500);
+  --color-text-inverse: var(--neutral-0);
+  --color-text-on-primary: var(--neutral-0);
+  --color-text-on-secondary: var(--neutral-0);
+
+  /* Semantic — borders & focus */
+  --color-border: var(--neutral-200);
+  --color-border-strong: var(--neutral-300);
+  --color-focus-ring: var(--green-400);
+
+  /* Semantic — status */
+  --color-success: var(--green-600);
+  --color-success-bg: var(--green-50);
+  --color-warning: var(--orange-500);
+  --color-error: #dc2626;
+  --color-error-bg: #fef2f2;
+
+  /* Semantic — components */
+  --button-primary-bg: var(--color-primary);
+  --button-primary-bg-hover: var(--color-primary-hover);
+  --button-primary-text: var(--color-text-on-primary);
+  --button-secondary-bg: var(--color-secondary);
+  --button-secondary-bg-hover: var(--color-secondary-hover);
+  --button-secondary-text: var(--color-text-on-secondary);
+  --button-ghost-text: var(--color-primary);
+  --button-ghost-text-hover: var(--color-primary-hover);
+
+  --card-bg: var(--color-surface);
+  --card-border: var(--color-border);
+  --card-shadow: 0 4px 24px rgba(15, 23, 42, 0.08);
+
+  --input-bg: var(--neutral-0);
+  --input-border: var(--color-border);
+  --input-border-focus: var(--color-primary);
+  --input-text: var(--color-text);
+  --input-placeholder: var(--neutral-400);
+
+  --nav-bg: rgba(255, 255, 255, 0.92);
+  --nav-border: var(--color-border);
+  --nav-text: var(--color-text);
+
+  --badge-visited-bg: var(--green-100);
+  --badge-visited-text: var(--green-800);
+  --badge-wishlist-bg: var(--orange-100);
+  --badge-wishlist-text: var(--orange-800);
+
+  --progress-track: var(--neutral-200);
+  --progress-fill: linear-gradient(90deg, var(--green-500), var(--orange-500));
+
+  /* Spacing & layout */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-full: 9999px;
+
+  --font-sans: "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-display: Georgia, "Times New Roman", serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.1);
+  --shadow-lg: 0 12px 40px rgba(15, 23, 42, 0.12);
+
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+
+  --max-width: 72rem;
+  --header-height: 4rem;
+}

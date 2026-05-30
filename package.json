@@ -1,0 +1,19 @@
+{
+  "name": "national-parks-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Track U.S. National Park visits with Firebase and deploy on Vercel",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "firebase:deploy-rules": "npx firebase-tools@latest deploy --only firestore:rules,auth"
+  },
+  "dependencies": {
+    "firebase": "^11.6.0",
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
