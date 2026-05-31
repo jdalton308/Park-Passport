@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2D5A27;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Gradient Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#bgGradient)" opacity="0.2"/>
+  <!-- Border -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#047857" stroke-width="4"/>
+  <!-- Sun (partially behind mountain) -->
+  <circle cx="68" cy="38" r="14" fill="#f97316"/>
+  <!-- Mountain -->
+  <path d="M20 70 L50 30 L80 70 Z" fill="#047857"/>
+  <!-- Mountain Detail (Shadow) -->
+  <path d="M40 70 L50 55 L60 70 Z" fill="#064e3b"/>
+</svg>

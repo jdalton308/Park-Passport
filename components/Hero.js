@@ -13,7 +13,7 @@ export default function Hero() {
         </p>
         <div className="hero__actions">
           <a href="#auth-section" className="btn btn--secondary btn--lg">
-            Continue with Google
+            Get Started
           </a>
         </div>
         <div className="hero__stats">
